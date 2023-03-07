@@ -1,6 +1,6 @@
 import Observer from './observer.js'
 
-function observer(data) {
+function observe(data) {
 
 
     if (typeof data !== 'object' || data === null) return
@@ -8,4 +8,4 @@ function observer(data) {
     return new Observer(data)
 }
 
-export default observer
+export default observe
