@@ -9,8 +9,8 @@ var originArrMethods = Array.prototype,
 ARR_METHODS.map(function (m) {
     arrMethods[m] = function () {
         //完成原来的功能
-        var arg = Array.prototype.slice.call(arguments),
-            rt = originArrMethods[m].apply(this, arg)
+        var args = Array.prototype.slice.call(arguments),
+            rt = originArrMethods[m].apply(this, args)
 
 
         //把 新增的参数 筛选出来
