@@ -18,7 +18,17 @@ const vm = new Vue({
                     name: '李四',
                     id: 2
                 }
-            ]
+            ],
+            test: {
+                a: {
+                    b: 'testvalue'
+                }
+            }
         }
     }
 })
+
+// console.log(vm.students[0])
+// vm.test.a.b= 2
+console.log(vm,'test.a')
+// console.log(vm.test.a.b,'test.a')
