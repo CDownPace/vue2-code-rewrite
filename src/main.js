@@ -1,6 +1,6 @@
 import Vue from '../module/vue'
 
-
+//render > template > el
 //options API
 const vm = new Vue({
     el: '#app',
@@ -12,11 +12,11 @@ const vm = new Vue({
             students: [
                 {
                     name: '张三',
-                    id: 1
+                    age: 1
                 },
                 {
                     name: '李四',
-                    id: 2
+                    age: 2
                 }
             ],
             test: {
@@ -29,6 +29,6 @@ const vm = new Vue({
 })
 
 // console.log(vm.students[0])
-// vm.test.a.b= 2
+vm.test.a.b=2
 console.log(vm,'test.a')
 // console.log(vm.test.a.b,'test.a')

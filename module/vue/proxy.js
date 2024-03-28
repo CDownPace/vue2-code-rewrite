@@ -6,6 +6,7 @@ function proxyData(vm, target, key) {
             return target[key]
         },
         set(newValue) {
+            console.log('set--')
             target[key] = newValue
         }
     })

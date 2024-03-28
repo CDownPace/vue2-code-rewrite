@@ -7,7 +7,7 @@ function initState(vm) {
 
 function initData(vm) {
 
-    var data = vm.$option.data
+    var data = vm.$options.data
 
     //1.这里想创建一个临时的_data去操作，保留用户原本的data
     data = vm._data = typeof data == 'function' ? data.call(vm) : data
