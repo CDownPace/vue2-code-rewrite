@@ -9,7 +9,6 @@ function defineReactiveData(data, key, value) {
         },
         set(newValue) {
             // console.log('响应式数据设置', data, key)
-
             if (newValue === value) return
 
             data[key] = newValue

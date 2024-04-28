@@ -80,6 +80,7 @@ function parseHTMLToAST(html) {
     }
 
     function advance(n) {
+        //截取字符串
         html = html.substring(n);
     }
 

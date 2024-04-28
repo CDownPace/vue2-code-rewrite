@@ -29,6 +29,6 @@ const vm = new Vue({
 })
 
 // console.log(vm.students[0])
-vm.test.a.b=2
-console.log(vm,'test.a')
+// vm.test.a.b=2
+// console.log(vm,'test.a')
 // console.log(vm.test.a.b,'test.a')

@@ -15,10 +15,11 @@ function renderMixin(Vue){
     Vue.prototype._render = function(){
         console.log('cck')
         const vm = this,
-            render = vm.$options.render;
+            render = vm.$options.render,
             vnode = render.call(vm);
 
             console.log('render2',vm.$options)
+            // console.log('vdome',vdome)
 
         return vnode;
     }

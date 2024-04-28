@@ -1,6 +1,6 @@
 function createElement(tag,attrs={},...child){
     console.log('child',child)
-    return vnode(tag,attrs, children);
+    return vnode(tag,attrs, child);
 }
 function createTextVnode(text){
     return vnode(undefined,undefined,undefined,text)

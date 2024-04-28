@@ -10,6 +10,7 @@
 - 5. 设置PATCH -> 打补丁到真实DOM
 
 
+//AST树
 {
     tag:'div',
     type:1,
